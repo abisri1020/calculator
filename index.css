@@ -1,0 +1,70 @@
+#title,
+#description {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin-top: 3rem;
+}
+
+.calculator {
+    padding: 20px;
+    border-radius: 5%;
+    height: 520px;
+    width: 500px;
+    margin: auto;
+    background-color: cyan;
+    box-shadow: gray 15px 15px 15px;
+}
+
+.display-box {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 95%;
+    height: 65%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button,
+.clr_eql,
+.symbol,
+.btn,
+.sym {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightpink;
+    color: black;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 10px;
+    height: 80%;
+    outline: none;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.btn,
+.sym {
+    border: none;
+}
+
+.symbol,
+.sym {
+    background-color: burlywood;
+}
+
+.button:hover,
+.clr_eql:hover,
+.symbol:hover {
+    background-color: rgb(243, 239, 239);
+}
+
+.btn:active,
+.sym:active {
+    background-color: rgb(243, 239, 239);
+}

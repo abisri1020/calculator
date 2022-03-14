@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <script type="text/javascript" src="script.js"></script>
+    <!-- <h1 id="title">CALCULATOR</h1>
+    <p id="description">DOM calculator for operating simple calculation</p> -->
+    <div class="calci">
+        <table class="calculator">
+            <tr>
+                <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
+                <!-- clearScreen() function clear all the values -->
+                <td> <button class="symbol" id="clear"><input class="sym"  type="button" value="C" onclick="clearScreen()" /></button> </td>
+            </tr>
+            <tr>
+                <!-- display() function display the value of clicked button -->
+                <td> <button class="button" id="1"><input class="btn" type="button" value="1" onclick="display('1')" /> </button></td>
+                <td> <button class="button" id="2"><input class="btn" type="button" value="2"onclick="display('2')" /> </button></td>
+                <td> <button class="button" id="3"> <input class="btn" type="button" value="3"  onclick="display('3')" /></button> </td>
+                <td> <button class="symbol" id="divide"><input class="sym" type="button" value="/"  onclick="display('/')" /> </button></td>
+            </tr>
+            <tr>
+                <td><button class="button" id="4"><input class="btn" type="button" value="4"  onclick="display('4')" /></button> </td>
+                <td> <button class="button" id="5"><input class="btn" type="button" value="5"  onclick="display('5')" /> </button></td>
+                <td><button class="button" id="6"><input class="btn" type="button" value="6"  onclick="display('6')" /></button> </td>
+                <td> <button class="symbol" id="multiply"><input class="sym" type="button" value="*"  onclick="display('*')" /> </button></td>
+            </tr>
+            <tr>
+                <td><button class="button" id="7"><input class="btn" type="button" value="7" onclick="display('7')" /> </button> </td>
+                <td><button class="button" id="7"><input class="btn" type="button" value="8"  onclick="display('8')" /></button> </td>
+                <td> <button class="button" id="8"><input class="btn" type="button" value="9" onclick="display('9')" /></button> </td>
+                <td><button class="symbol" id="add"><input class="sym" type="button" value="+"  onclick="display('+')" /></button> </td>
+            </tr>
+            <tr>
+                <td> <button class="button" id="0"><input class="btn" type="button" value="0"  onclick="display('0')" /></button> </td>
+                <td><button class="button" id="dot"><input class="btn" type="button" value="." onclick="display('.')" /></button> </td>
+                <!-- calculate() function evaluate the mathematical expression -->
+                <td> <button class="symbol" id="equal"><input class="sym" type="button" value="="  onclick="calculate()" /> </button></td>
+                <td><button class="symbol" id="subtract"> <input class="sym" type="button" value="-" onclick="display('-')" /> </button></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>
